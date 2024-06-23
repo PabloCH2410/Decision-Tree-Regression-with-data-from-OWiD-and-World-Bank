@@ -737,7 +737,7 @@ fig.suptitle('Correlation with onshore wind energy', fontsize = 10, fontweight =
 ```
 ![Correlation with onshore wind energy](https://github.com/PabloCH2410/Decision-Tree-Regression-with-data-from-OWiD-and-World-Bank/assets/172182349/8cca7e88-1750-48dc-adb6-e72d1b7d3a9c)
 
-With this graph we can see the relationship of each variable in our dataset with onshore wind energy. Thus, we can see that there is a negative correlation between onshore wind energy production and oil and gas production (in the case of coal we see that there is hardly any influence), and a strong positive correlation with biogas production.
+With this graph we can see the relationship of each variable in our dataset with onshore wind energy. Thus, we can see that there is a negative correlation between onshore wind energy production and oil and gas production (in the case of coal we see that there is hardly any influence), and a strong positive correlation with biogas production. Another curious insight we can draw from the relationship graph and the correlation matrix is with the hectares of arable land. We see that there is a negative correlation between the production of onshore wind energy and these hectares, which seems logical: to produce more onshore wind energy we need more space for wind farms for example, which reduces the possible land space that can be used for cultivation or other agricultural activity.
 
 We can do all this visually, see the direction of the relationship between two variables (positive or negative) and the strength of this relationship (slope of the curve drawn on the graph), but to be sure of what we see a very good way is a correlation matrix.
 
